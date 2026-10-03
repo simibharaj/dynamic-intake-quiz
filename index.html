@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Intake Quiz (demo)</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+  <main class="quiz-container">
+    <div class="progress-bar-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="14" aria-label="Quiz progress">
+      <div id="quizProgress" class="progress-bar-fill"></div>
+    </div>
+    <div id="quizStage" class="card-stage" aria-live="polite"></div>
+    <p id="quizMessage" class="muted" role="alert"></p>
+    <div class="nav-controls">
+      <button id="prevBtn" class="btn secondary" type="button" disabled>Back</button>
+      <button id="nextBtn" class="btn primary" type="button">Continue</button>
+    </div>
+    <p class="muted small">Demo only. Sample questions, no data leaves your browser, not financial advice.</p>
+  </main>
+  <script src="quiz-core.js"></script>
+  <script src="screens.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>

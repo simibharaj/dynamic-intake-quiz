@@ -1,0 +1,1 @@
+{ "name": "dynamic-intake-quiz", "version": "0.1.0", "description": "Zero-dependency multi-step quiz demo.", "scripts": { "test": "node --test test/" }, "license": "MIT" }
